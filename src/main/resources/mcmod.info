@@ -1,0 +1,17 @@
+[
+	{
+	  "modid": "yourpack",
+	  "name": "Your Pack Name Here",
+	  "description": "Example pack.",
+	  "version": "${version}",
+	  "mcversion": "${mcversion}",
+	  "url": "",
+	  "updateUrl": "",
+	  "authorList": ["ExampleDude"],
+	  "credits": "The Forge and FML guys, for making Forge & Stuff",
+	  "logoFile": "",
+	  "screenshots": [],
+	  "dependencies": [],
+	  "parent": "fvtm"
+	}
+]
