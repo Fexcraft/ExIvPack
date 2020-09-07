@@ -56,7 +56,7 @@ public class ExIvPack {
 		try{
 			List<Item> itemList = MTSRegistry.getItemsForPack(MODID);
 			for(Item item : itemList){
-				item.setRegistryName(new ResourceLocation(MODID, item.getTranslationKey().replace("item." + MODID + ".", "")));
+				item.setRegistryName(new ResourceLocation(MODID, item.getUnlocalizedName().replace("item." + MODID + ".", "")));
 				event.getRegistry().register(item);
 			}
 		}
