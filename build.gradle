@@ -22,8 +22,8 @@ configurations.all {
 
 
 version = "1.0"
-group = "net.fexcraft.mod.addon.YOUR-ADDON-ID" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "YOUR-ADDON-ID"
+group = "net.fexcraft.mod.addon.exivpack" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "ExIv"
 
 sourceCompatibility = targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 compileJava {
@@ -64,10 +64,8 @@ dependencies {
     // for more info...
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
-    compile('com.github.Fexcraft:FCL:1.12.2-SNAPSHOT'){
-        changing=true
-    }
-    compile ('com.github.Fexcraft:FVTM:1.12.2-SNAPSHOT'){
+
+    compile ('com.github.DonBruce64:MinecraftTransportSimulator:master-SNAPSHOT'){
         changing=true
     }
 }
