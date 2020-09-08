@@ -54,7 +54,8 @@ public class ExIvPack {
 					}
 				}
 				else{//DIR
-					File folder = new File(mod.getModContainer(), "/resources/assets/" + MODID + "/jsondefs/" + str + "s");
+					File folder = new File(mod.getModContainer(), "/assets/" + MODID + "/jsondefs/" + str + "s");
+					if(!folder.exists()) folder.mkdirs();
 					for(File file : folder.listFiles()){
 						if(!file.getName().endsWith(".json")) continue;
 						addContentMethod.invoke(null, new InputStreamReader(new FileInputStream(file)), file.getName().replace(".json", ""), MODID);
