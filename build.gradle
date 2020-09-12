@@ -65,7 +65,7 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
-    compile ('com.github.DonBruce64:MinecraftTransportSimulator:V19EntityAbstraction2-SNAPSHOT'){
+    compile ('com.github.DonBruce64:MinecraftTransportSimulator:master-SNAPSHOT'){
         changing=true
     }
 }
