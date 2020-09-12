@@ -1,0 +1,15 @@
+{
+  "RegistryName": "hybrid:exivpack",
+  "Name": "Hybrid ExIvPack counterpart.",
+  "URL": "http://fexcraft.net/download?modid=addon-exivpack",
+  "UpdateID": "addon-exivpack",
+  "License": "http://fexcraft.net/license?id=mods",
+  "Dependencies": [ "fvtm:gep" ],
+  "Authors": [
+    "01e4af9b-2a30-471e-addf-f6338ffce04b"
+  ],
+  "Version": "1.0",
+  "GenerateItemJson": false,
+  "GenerateItemIcon": false,
+  "GenerateLang": false
+}
