@@ -15,6 +15,7 @@ import minecrafttransportsimulator.systems.PackParserSystem;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.discovery.ContainerType;
 import net.minecraftforge.fml.common.discovery.ModCandidate;
@@ -79,6 +80,7 @@ public class ExIvPack {
 		}
 		catch(Exception e){
 			e.printStackTrace();
+			FMLCommonHandler.instance().exitJava(1, true);
 		}
 	}
     
